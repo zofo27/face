@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:400,300);
+
+.entrada{
+	border-bottom: 2px solid #333;
+	background-color: rgba(0,0,0,0.3)
+}
+
+.entrada p{
+	margin: 10px 0;
+	padding: 10px; 
+	
+	word-spacing: 3px;
+	font-family: 'Exo', sans-serif;
+	
+
+	
+}
+.entrada p img{
+	width: 100%;
+	height: auto;
+}
+
+.entrada:hover .entradaContenido{
+	display: block;
+}
+
+.entradaTit{
+	padding: 15px;
+	background-color: #efefef;
+	border-radius: 5px;
+	border:1px solid #333;
+	color:#333;
+	font-family: 'Press Start 2P', cursive;
+}
+.entradaContenido{
+	display: none;
+	font-family: 'Exo', sans-serif;
+}
+
+
+
+
+
+
+
+
+#homepage-hero{
+	position:absolute;
+	left:0;
+	right:0;
+	height:480px;
+	background:#309dc2 url(/images/marketing/cloud.jpg) repeat-x 50% 100%;
+	text-align:center;
+	margin-bottom:32px;
+	border-bottom:8px whitesmoke solid;
+	border-top:1px solid rgba(5,5,5,0.2);
+	-webkit-animation:animate-cloud 30s linear infinite;
+	-moz-animation:animate-cloud 30s linear infinite;
+	-ms-animation:animate-cloud 30s linear infinite;
+	-o-animation:animate-cloud 30s linear infinite;
+	animation:animate-cloud 30s linear infinite
+}
+
+
+ html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+#map-canvas {
+	z-index: 100;
+
+}
+
+.loginFB{
+	bottom: 0;
+	left: 0;
+	margin:auto;
+	
+	right: 0;
+	top:0;
+	width: 40%;
+}
+.loginFB img, .loginFB input{
+	display: inline-block;
+	width: 45%;
+	margin: 1%;
+}
+
